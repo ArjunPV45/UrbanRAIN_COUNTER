@@ -35350,3 +35350,497 @@ TypeError: '<' not supported between instances of 'str' and 'int'
  * Running on http://10.71.172.125:5000
 2025-06-16 12:54:08,590 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
 2025-06-16 12:54:11,209 - __main__ - INFO - Shutting down application
+2025-06-16 15:30:57,420 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 15:30:57,463 - __main__ - INFO - Application created successfully
+2025-06-16 15:30:57,463 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 15:30:57,463 - __main__ - INFO - Active camera: camera1
+2025-06-16 15:30:57,463 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 15:30:57,470 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.125:5000
+2025-06-16 15:30:57,471 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 15:30:57,509 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "GET /socket.io/?EIO=4&transport=polling&t=PTuBsT7 HTTP/1.1" 200 -
+2025-06-16 15:30:57,585 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "POST /socket.io/?EIO=4&transport=polling&t=PTuBsbi&sid=Ttza9tHwwj1gd1dqAAAA HTTP/1.1" 200 -
+2025-06-16 15:30:57,588 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "GET /socket.io/?EIO=4&transport=polling&t=PTuBsbo&sid=Ttza9tHwwj1gd1dqAAAA HTTP/1.1" 200 -
+2025-06-16 15:30:57,607 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:30:57,611 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:30:57,611 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:30:57] "GET /socket.io/?EIO=4&transport=polling&t=PTuBscy&sid=Ttza9tHwwj1gd1dqAAAA HTTP/1.1" 200 -
+2025-06-16 15:31:14,578 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:31:14] "OPTIONS /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:31:16,575 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:31:16] "[31m[1mPOST /start_pipeline HTTP/1.1[0m" 400 -
+2025-06-16 15:31:23,685 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:31:23] "[31m[1mPOST /start_pipeline HTTP/1.1[0m" 400 -
+2025-06-16 15:31:40,694 - __main__ - INFO - Shutting down application
+2025-06-16 15:32:33,744 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 15:32:33,802 - __main__ - INFO - Application created successfully
+2025-06-16 15:32:33,803 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 15:32:33,803 - __main__ - INFO - Active camera: camera1
+2025-06-16 15:32:33,803 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 15:32:33,810 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.134:5000
+2025-06-16 15:32:33,810 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 15:33:07,500 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:07] "OPTIONS /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:33:16,653 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:16] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:33:16,732 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:16] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:33:25,444 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:25] "GET /get_snapshot?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:34,585 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "OPTIONS /api/camera/camera1/zones HTTP/1.1" 200 -
+2025-06-16 15:33:34,623 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "[35m[1mPOST /api/camera/camera1/zones HTTP/1.1[0m" 201 -
+2025-06-16 15:33:34,657 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:34,707 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:34,710 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:34,774 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:34] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:39,688 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:39] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:39,726 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:39] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:43,688 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:43] "GET /get_counts?camera_id=camera1&start_time=2025-06-16T00%3A00%3A00&end_time=2025-06-16T23%3A59%3A00 HTTP/1.1" 200 -
+2025-06-16 15:33:44,710 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:44] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:44,770 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:44] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:49,708 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:49] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:49,769 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:49] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:54,716 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:54] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:54,776 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:54] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:59,718 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:59] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:33:59,777 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:33:59] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:00,149 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:00] "GET /get_counts?camera_id=camera1&start_time=2025-06-16T00%3A00%3A00&end_time=2025-06-16T23%3A59%3A00 HTTP/1.1" 200 -
+2025-06-16 15:34:03,402 - __main__ - INFO - Shutting down application
+2025-06-16 15:34:24,633 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 15:34:24,680 - __main__ - INFO - Application created successfully
+2025-06-16 15:34:24,680 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 15:34:24,681 - __main__ - INFO - Active camera: camera1
+2025-06-16 15:34:24,681 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 15:34:24,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.134:5000
+2025-06-16 15:34:24,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 15:34:24,818 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:24] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:24,873 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:24] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:29,724 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:29] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:29,803 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:29] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:34,748 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:34,807 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:34] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:35,502 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:35] "[33mPOST /upload_heatmap HTTP/1.1[0m" 404 -
+2025-06-16 15:34:38,329 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:38] "[33mGET /get_counts?camera_id=null&heatmap_id=image.png HTTP/1.1[0m" 404 -
+2025-06-16 15:34:39,730 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:39] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:39,814 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:39] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:44,894 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:44] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:44,956 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:44] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:49,810 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:49] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:49,873 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:49] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:54,737 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:54] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:54,794 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:54] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:58,977 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:58] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:34:59,044 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:59] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:34:59,814 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:59] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:34:59,946 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:34:59] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:04,710 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:04] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:04,760 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:04] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:09,734 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:09] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:09,786 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:09] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:14,719 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:14] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:14,782 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:14] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:19,704 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:19] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:19,747 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:19] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:24,714 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:24] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:24,766 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:24] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:29,707 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:29] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:29,758 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:29] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:34,707 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:34,757 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:34] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:39,707 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:39] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:39,750 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:39] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:44,703 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:44] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:44,756 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:44] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:49,747 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:49] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:49,873 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:49] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:54,716 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:54] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:54,773 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:54] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:59,731 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:59] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:35:59,826 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:35:59] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:04,713 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:04] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:04,771 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:04] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:09,700 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:09] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:09,765 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:09] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:14,695 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:14] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:14,746 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:14] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:19,718 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:19] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:19,770 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:19] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:24,741 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:24] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:24,798 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:24] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:29,708 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:29] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:29,759 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:29] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:34,694 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:34,745 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:36:34] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:36:38,047 - __main__ - INFO - Shutting down application
+2025-06-16 15:37:08,464 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 15:37:08,503 - __main__ - INFO - Application created successfully
+2025-06-16 15:37:08,503 - __main__ - INFO - Available cameras: ['camera1']
+2025-06-16 15:37:08,503 - __main__ - INFO - Active camera: camera1
+2025-06-16 15:37:08,503 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 15:37:08,506 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.134:5000
+2025-06-16 15:37:08,507 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 15:37:09,776 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:09] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:09,845 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:09] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:14,802 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:14] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:14,865 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:14] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:19,816 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:19] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:19,879 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:19] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:24,737 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:24] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:24,807 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:24] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:29,739 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:29] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:29,773 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:37:29] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:37:38,140 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:38] "GET / HTTP/1.1" 200 -
+2025-06-16 15:37:38,256 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:38] "GET /video_feed HTTP/1.1" 200 -
+2025-06-16 15:37:39,166 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "[36mGET /static/script2.js HTTP/1.1[0m" 304 -
+2025-06-16 15:37:39,261 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:37:39,262 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:37:39,264 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /socket.io/?EIO=4&transport=polling&t=PTuDOoZ HTTP/1.1" 200 -
+2025-06-16 15:37:39,277 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-16 15:37:39,350 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "POST /socket.io/?EIO=4&transport=polling&t=PTuDOpw&sid=ZvyPnceaZcqZdQ0NAAAA HTTP/1.1" 200 -
+2025-06-16 15:37:39,352 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /socket.io/?EIO=4&transport=polling&t=PTuDOpy&sid=ZvyPnceaZcqZdQ0NAAAA HTTP/1.1" 200 -
+2025-06-16 15:37:39,423 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /socket.io/?EIO=4&transport=polling&t=PTuDOrE&sid=ZvyPnceaZcqZdQ0NAAAA HTTP/1.1" 200 -
+2025-06-16 15:37:39,621 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:37:39,622 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:37:39] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:38:28,271 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:38:28] "[31m[1mPOST /start_pipeline HTTP/1.1[0m" 400 -
+2025-06-16 15:38:36,704 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:38:36] "[31m[1mPOST /start_pipeline HTTP/1.1[0m" 400 -
+2025-06-16 15:38:46,816 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:38:46] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:38:46,891 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:38:46] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:38:46,895 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:38:46] "GET /video_feed?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:39:46,186 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:39:46] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:39:46,309 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:39:46] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:51:17,781 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:17] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:51:17,918 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:17] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:51:23,533 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:23] "GET /get_snapshot?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:51:34,466 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:34] "[35m[1mPOST /api/camera/camera1/zones HTTP/1.1[0m" 201 -
+2025-06-16 15:51:34,941 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:34] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:51:35,041 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:51:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:53:54,184 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 15:53:54,224 - __main__ - INFO - Application created successfully
+2025-06-16 15:53:54,224 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 15:53:54,224 - __main__ - INFO - Active camera: camera1
+2025-06-16 15:53:54,224 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 15:53:54,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.134:5000
+2025-06-16 15:53:54,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 15:53:54,459 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "GET /socket.io/?EIO=4&transport=polling&t=PTuH6aN HTTP/1.1" 200 -
+2025-06-16 15:53:54,479 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "POST /socket.io/?EIO=4&transport=polling&t=PTuH6v3&sid=-4FD4O4SyZ4RLBRaAAAA HTTP/1.1" 200 -
+2025-06-16 15:53:54,485 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "GET /socket.io/?EIO=4&transport=polling&t=PTuH6v5&sid=-4FD4O4SyZ4RLBRaAAAA HTTP/1.1" 200 -
+2025-06-16 15:53:54,508 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "GET /socket.io/?EIO=4&transport=polling&t=PTuH6vO&sid=-4FD4O4SyZ4RLBRaAAAA HTTP/1.1" 200 -
+2025-06-16 15:53:54,619 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:53:54,623 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:53:54] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:54:06,226 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:54:06] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:54:06,394 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:54:06] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 15:54:06,397 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 15:54:06] "GET /video_feed?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:57:57,859 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:57:57] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 15:57:58,151 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:57:58] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 15:59:06,279 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:06] "GET /get_snapshot?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:15,313 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:15] "[35m[1mPOST /api/camera/camera1/zones HTTP/1.1[0m" 201 -
+2025-06-16 15:59:15,676 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:15,892 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:15,896 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:16,159 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:16] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:21,075 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:21] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:21,320 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:21] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:25,757 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:26,224 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:26] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:28,760 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:28] "OPTIONS /get_counts?camera_id=camera1&start_time=2025-06-11T00:00:00&end_time=2025-06-16T23:59:00 HTTP/1.1" 200 -
+2025-06-16 15:59:29,206 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:29] "GET /get_counts?camera_id=camera1&start_time=2025-06-11T00:00:00&end_time=2025-06-16T23:59:00 HTTP/1.1" 200 -
+2025-06-16 15:59:31,043 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:31] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:31,281 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:31] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:35,778 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:35,943 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:40,905 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:41,039 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:41] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:45,609 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:45,824 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:50,566 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:50,825 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:55,506 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 15:59:55,708 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 15:59:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:00,555 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:00,686 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:01,539 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:01] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:00:01,680 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:01] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:00:05,628 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:05,818 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:10,540 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:10,732 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:15,523 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:15,837 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:20,613 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:21,131 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:21] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:25,481 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:25,707 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:30,611 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:30,743 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:35,721 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:35,880 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:37,225 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:37] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:00:37,383 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:37] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:00:40,506 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:40,701 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:45,585 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:45,816 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:49,550 - __main__ - INFO - Shutting down application
+2025-06-16 16:00:53,618 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 16:00:53,668 - __main__ - INFO - Application created successfully
+2025-06-16 16:00:53,668 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 16:00:53,668 - __main__ - INFO - Active camera: camera1
+2025-06-16 16:00:53,668 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 16:00:53,675 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.134:5000
+2025-06-16 16:00:53,675 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 16:00:55,520 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:55,579 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:00:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:00:55,732 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "GET /socket.io/?EIO=4&transport=polling&t=PTuIjl1 HTTP/1.1" 200 -
+2025-06-16 16:00:55,787 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "POST /socket.io/?EIO=4&transport=polling&t=PTuIjlP&sid=BdD8kui2boIIgJ-tAAAA HTTP/1.1" 200 -
+2025-06-16 16:00:55,788 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "GET /socket.io/?EIO=4&transport=polling&t=PTuIjlT&sid=BdD8kui2boIIgJ-tAAAA HTTP/1.1" 200 -
+2025-06-16 16:00:55,807 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "GET /socket.io/?EIO=4&transport=polling&t=PTuIjmL&sid=BdD8kui2boIIgJ-tAAAA HTTP/1.1" 200 -
+2025-06-16 16:00:55,808 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 16:00:55,811 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:00:55] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:01:00,458 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:00,511 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:05,449 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:05,502 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:07,213 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:07] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:01:07,233 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:07] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:01:07,248 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:07] "GET /video_feed?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:10,492 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:10,595 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:15,497 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:15,680 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:20,587 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:20,823 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:25,146 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:25] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:01:25,203 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:25] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:01:25,505 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:25,609 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:30,560 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:30,724 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:35,523 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:35,730 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:40,487 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:40,637 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:44,419 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:44] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:01:44,482 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:01:44] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:01:45,510 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:45,664 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:50,538 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:50,721 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:55,520 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:01:55,634 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:01:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:00,600 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:00,735 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:05,562 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:05,686 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:10,578 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:10,760 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:15,507 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:15,665 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:20,490 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:20,729 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:25,526 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:25,693 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:30,516 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:30,704 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:35,546 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:35,657 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:37,155 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:02:37] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:02:37,293 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:02:37] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:02:40,515 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:40,664 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:45,473 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:45,606 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:50,524 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:50,691 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:55,532 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:02:55,726 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:02:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:00,515 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:00,637 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:05,579 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:05,761 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:10,517 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:10,659 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:15,484 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:15,618 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:20,520 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:20,657 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:25,538 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:25,645 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:30,561 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:30,733 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:35,542 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:35,671 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:40,585 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:40,717 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:45,551 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:45,713 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:50,517 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:50,665 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:55,583 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:03:55,717 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:03:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:00,560 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:00,669 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:05,514 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:05,648 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:10,477 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:10,672 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:15,534 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:15,640 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:20,513 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:20,706 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:25,514 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:25,641 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:30,535 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:30,677 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:35,547 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:35,701 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:40,608 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:40,881 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:45,518 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:45,649 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:50,529 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:50,705 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:55,525 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:04:55,670 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:04:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:00,639 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:00,791 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:05,546 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:05,733 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:10,528 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:10,739 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:15,492 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:15,648 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:20,601 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:20,936 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:25,566 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:25,734 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:30,532 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:30,646 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:35,553 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:35,726 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:40,494 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:40,577 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:45,482 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:45,585 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:57,905 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:57] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:58,066 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:58] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:58,201 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:58] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:05:58,494 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:05:58] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:00,538 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:00,733 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:05,564 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:05,709 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:10,607 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:10,934 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:15,525 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:15,654 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:20,560 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:20,704 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:25,603 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:25,764 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:30,735 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:30,971 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:35,619 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:35,901 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:40,494 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:40,628 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:45,537 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:45,709 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:50,564 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:50,689 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:55,572 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:06:55,752 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:06:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:00,538 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:00,689 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:05,572 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:05,730 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:10,504 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:10,628 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:15,557 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:15,715 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:20,538 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:20,729 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:25,542 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:25,688 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:30,515 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:30,662 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:35,615 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:35,804 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:40,521 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:40,686 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:45,491 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:45,623 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:50,524 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:50,658 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:55,508 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:07:55,809 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:07:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:00,552 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:00,637 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:05,475 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:05,569 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:10,511 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:10,625 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:15,508 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:15,650 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:15] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:20,575 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:20] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:20,753 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:20] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:25,631 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:25] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:25,893 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:25] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:30,686 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:30] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:30,896 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:30] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:35,487 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:35] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:35,624 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:35] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:40,570 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:40] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:40,717 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:40] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:45,506 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:45] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:45,661 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:45] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:50,501 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:50] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:50,674 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:50] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:55,544 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:55] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:08:55,974 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:08:55] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:00,577 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:00] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:00,726 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:00] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:05,611 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:05] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:05,752 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:05] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:10,533 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:10] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:10,706 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:10] "GET /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:09:15,852 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:09:15] "OPTIONS /get_counts?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:12:04,668 - __main__ - INFO - Starting Multi-Source Zone Visitor Counter Application
+2025-06-16 16:12:04,725 - __main__ - INFO - Application created successfully
+2025-06-16 16:12:04,725 - __main__ - INFO - Available cameras: ['camera1', 'camera2', 'camera3']
+2025-06-16 16:12:04,725 - __main__ - INFO - Active camera: camera1
+2025-06-16 16:12:04,725 - __main__ - INFO - Starting server on 0.0.0.0:5000
+2025-06-16 16:12:04,731 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.71.172.135:5000
+2025-06-16 16:12:04,731 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-16 16:12:28,254 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:28] "GET / HTTP/1.1" 200 -
+2025-06-16 16:12:28,354 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:28] "GET /video_feed HTTP/1.1" 200 -
+2025-06-16 16:12:29,137 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /static/script2.js HTTP/1.1" 200 -
+2025-06-16 16:12:29,172 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /socket.io/?EIO=4&transport=polling&t=PTuLN26 HTTP/1.1" 200 -
+2025-06-16 16:12:29,173 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 16:12:29,174 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:12:29,199 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "POST /socket.io/?EIO=4&transport=polling&t=PTuLN2U&sid=IxK-bNpU4O5aBkOaAAAA HTTP/1.1" 200 -
+2025-06-16 16:12:29,202 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /socket.io/?EIO=4&transport=polling&t=PTuLN2W&sid=IxK-bNpU4O5aBkOaAAAA HTTP/1.1" 200 -
+2025-06-16 16:12:29,209 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-16 16:12:29,232 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /socket.io/?EIO=4&transport=polling&t=PTuLN2_&sid=IxK-bNpU4O5aBkOaAAAA HTTP/1.1" 200 -
+2025-06-16 16:12:29,233 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:12:29,234 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:29] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 16:12:41,523 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:41] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:12:41,611 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:41] "GET /get_zones HTTP/1.1" 200 -
+2025-06-16 16:12:41,635 - werkzeug - INFO - 10.71.172.113 - - [16/Jun/2025 16:12:41] "GET /video_feed?camera_id=camera1 HTTP/1.1" 200 -
+2025-06-16 16:14:04,178 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:04] "OPTIONS /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:14:19,693 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:19] "POST /start_pipeline HTTP/1.1" 200 -
+2025-06-16 16:14:19,786 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:19] "GET /get_cameras HTTP/1.1" 200 -
+2025-06-16 16:14:29,203 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:29] "OPTIONS /get_counts?camera_id=camera1&start_time=2025-06-11T00:00:00&end_time=2025-06-16T23:59:00 HTTP/1.1" 200 -
+2025-06-16 16:14:29,628 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:29] "GET /get_counts?camera_id=camera1&start_time=2025-06-11T00:00:00&end_time=2025-06-16T23:59:00 HTTP/1.1" 200 -
+2025-06-16 16:14:59,191 - werkzeug - INFO - 10.71.172.122 - - [16/Jun/2025 16:14:59] "GET /get_snapshot?camera_id=camera1 HTTP/1.1" 200 -
